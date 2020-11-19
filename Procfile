@@ -1,1 +1,1 @@
-web: streamlit run demo.py
+web: streamlit run --server.port $PORT demo.py
