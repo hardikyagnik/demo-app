@@ -6,7 +6,7 @@ import time
 
 
 st.title("Tweet Analytics Dashboard")
-# st.header(f"{os.environ['HOME']}")
+st.header(f"{os.environ['NAME']}")
 
 st.write("Here's our first attempt at using data to create a table:")
 st.write(pd.DataFrame({
